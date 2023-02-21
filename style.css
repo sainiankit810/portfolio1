@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_nav{
+    width: 100%;
+    height: 100vh;
+    background: url(bg_Img.jpg);
+    background-size: cover;
+}
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 7% ;
+    padding-right: 7%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px whitesmoke;
+}
+
+.mid_nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+.mid_nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.main_nav ul li a:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+
+.subscribe_btn{
+    color: white;
+    text-decoration: none;
+    background-color: #f9004d;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.content{
+    position: absolute;
+    right: 7%;
+    top: 30%;
+}
+.content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 15px 0 15px;
+}
+.content p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.content h3{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.mailId form{
+    max-width: 100%;
+    width: 350px;
+    position: relative;
+}
+
+.mailId form input{
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #f9004d;
+}
+
+.mailId form button{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    top: 7px;
+    right: 6px;
+    box-shadow: 0 0 5px #000,0 0 15px #858585;
+}
+
+.about{
+    width: 100%;
+    padding: 100px;
+    background-color: #191919;
+}
+
+.about_main img{
+    width:400px;
+    height: 500px;
+}
+
+.about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.about_text{
+    width: 550px;
+}
+.about_text h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.about_text h4{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about_text p{
+    color: #fcfc;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.btn{
+    color: white;
+    background-color: #f9004d;
+    padding: 13px 30px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+.services{
+    width: 100%;
+    padding: 100px;
+}
+
+.title h1{
+    font-size: 60px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.card{
+    width: 335px;
+    height: 365px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 12px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+
+.card i{
+    font-size: 50px;
+    color: blue;
+    margin: 25px 0;
+}
+
+.card h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.para{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: #191919;
+}
+
+.servBtn{
+    color: white;
+    background-color: #f9004d;
+    padding: 13px 30px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.servBtn:hover{
+    border: 2px solid black;
+    background-color: red;
+    transform: scale(1.2);
+}
+
+footer{
+    width: 100%;
+    background-color: #191919;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    font-size: 40px;
+    color: white;
+}
+
+footer p{
+    margin: 12px;
+    color: white;
+}
+
+.social a{
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+}
